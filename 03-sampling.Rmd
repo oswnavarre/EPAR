@@ -1,0 +1,15 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+```{r include = FALSE}
+if(!knitr:::is_html_output())
+{
+  knitr::opts_chunk$set(fig.pos = 'h!')
+}
+```
+
+# Muestreo {#sampl}
+
+
