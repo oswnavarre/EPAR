@@ -1,0 +1,40 @@
+--- 
+title: "R para el análisis de datos en agricultura"
+author: 
+ - "Oswaldo Navarrete Carreño"
+date: "."
+site: bookdown::bookdown_site
+documentclass: book
+papersize: letter
+margin-left: 1in
+margin-right: 1in
+margin-top: 1in
+margin-bottom: 1in
+linestretch: 1.15
+toc-depth: 3
+lot: true
+lof: true
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Libro R para el análisis de datos en agricultura"
+github-repo: "oswnavarre/"
+
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'h',fig.align = 'center')
+library(kableExtra)
+library(tidyverse)
+library(gridExtra)
+library(latex2exp)
+library(tinytex)
+library(formatR)
+library(VGAM)
+library(methods)
+library(fGarch)
+library(DescTools)
+```
+
+
+# ¿A quién va dirigido este libro?
