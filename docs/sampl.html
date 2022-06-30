@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="distr.html"/>
-<link rel="next" href="icph.html"/>
+<link rel="prev" href="distribución-t-de-student.html"/>
+<link rel="next" href="técnicas-de-muestreo.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -71,10 +71,27 @@
 <li><a href="./">R para el análisis de datos en agricultura</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> ¿A quién va dirigido este libro?</a></li>
-<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Estadística. Conceptos Básicos.</a></li>
-<li class="chapter" data-level="3" data-path="distr.html"><a href="distr.html"><i class="fa fa-check"></i><b>3</b> Distribuciones de probabilidad</a></li>
-<li class="chapter" data-level="4" data-path="sampl.html"><a href="sampl.html"><i class="fa fa-check"></i><b>4</b> Muestreo</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> ¿A quién va dirigido este libro?</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="r-y-rstudio.html"><a href="r-y-rstudio.html"><i class="fa fa-check"></i><b>1.1</b> R y Rstudio</a></li>
+<li class="chapter" data-level="1.2" data-path="poniendo-todo-a-punto-para-empezar.html"><a href="poniendo-todo-a-punto-para-empezar.html"><i class="fa fa-check"></i><b>1.2</b> Poniendo todo a punto para empezar</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Estadística. Conceptos Básicos.</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="por-qué-aprender-estadística.html"><a href="por-qué-aprender-estadística.html"><i class="fa fa-check"></i><b>2.1</b> ¿Por qué aprender estadística?</a></li>
+<li class="chapter" data-level="2.2" data-path="estadística-o-estadísticas.html"><a href="estadística-o-estadísticas.html"><i class="fa fa-check"></i><b>2.2</b> ¿Estadística o estadísticas?</a></li>
+<li class="chapter" data-level="2.3" data-path="definiciones-importantes.html"><a href="definiciones-importantes.html"><i class="fa fa-check"></i><b>2.3</b> Definiciones importantes</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="distr.html"><a href="distr.html"><i class="fa fa-check"></i><b>3</b> Distribuciones de probabilidad</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="definiciones.html"><a href="definiciones.html"><i class="fa fa-check"></i><b>3.1</b> Definiciones</a></li>
+<li class="chapter" data-level="3.2" data-path="distribución-normal.html"><a href="distribución-normal.html"><i class="fa fa-check"></i><b>3.2</b> Distribución Normal</a></li>
+<li class="chapter" data-level="3.3" data-path="distribución-t-de-student.html"><a href="distribución-t-de-student.html"><i class="fa fa-check"></i><b>3.3</b> Distribución <span class="math inline">\(t\)</span> de Student</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="sampl.html"><a href="sampl.html"><i class="fa fa-check"></i><b>4</b> Muestreo</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="técnicas-de-muestreo.html"><a href="técnicas-de-muestreo.html"><i class="fa fa-check"></i><b>4.1</b> Técnicas de muestreo</a></li>
+</ul></li>
 <li class="chapter" data-level="5" data-path="icph.html"><a href="icph.html"><i class="fa fa-check"></i><b>5</b> Estadística Inferencial</a></li>
 <li class="chapter" data-level="6" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>6</b> Correlación y Regresión</a></li>
 <li class="chapter" data-level="7" data-path="doe.html"><a href="doe.html"><i class="fa fa-check"></i><b>7</b> Diseño de experimentos</a></li>
@@ -101,15 +118,14 @@
             <section class="normal" id="section-">
 <div id="sampl" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Capítulo 4</span> Muestreo<a href="sampl.html#sampl" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="distr.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="icph.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="distribución-t-de-student.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="técnicas-de-muestreo.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -163,6 +179,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

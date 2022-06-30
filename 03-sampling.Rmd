@@ -8,3 +8,4 @@ if(!knitr:::is_html_output())
 # Muestreo {#sampl}
 
 
+## Técnicas de muestreo

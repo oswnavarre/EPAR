@@ -8,3 +8,12 @@ if(!knitr:::is_html_output())
 
 # Estadística. Conceptos Básicos. {#intro}
 
+## ¿Por qué aprender estadística?
+
+
+
+## ¿Estadística o estadísticas?
+
+
+## Definiciones importantes
+

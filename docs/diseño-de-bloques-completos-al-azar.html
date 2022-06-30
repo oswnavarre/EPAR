@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Capítulo 2 Estadística. Conceptos Básicos. | R para el análisis de datos en agricultura</title>
+  <title>7.4 Diseño de bloques completos al azar | R para el análisis de datos en agricultura</title>
   <meta name="description" content="Libro R para el análisis de datos en agricultura" />
   <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Capítulo 2 Estadística. Conceptos Básicos. | R para el análisis de datos en agricultura" />
+  <meta property="og:title" content="7.4 Diseño de bloques completos al azar | R para el análisis de datos en agricultura" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="Libro R para el análisis de datos en agricultura" />
   <meta name="github-repo" content="oswnavarre/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Capítulo 2 Estadística. Conceptos Básicos. | R para el análisis de datos en agricultura" />
+  <meta name="twitter:title" content="7.4 Diseño de bloques completos al azar | R para el análisis de datos en agricultura" />
   
   <meta name="twitter:description" content="Libro R para el análisis de datos en agricultura" />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="poniendo-todo-a-punto-para-empezar.html"/>
-<link rel="next" href="por-qué-aprender-estadística.html"/>
+<link rel="prev" href="diseño-completo-al-azar.html"/>
+<link rel="next" href="diseño-de-cuadro-latino.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -92,9 +92,41 @@
 <ul>
 <li class="chapter" data-level="4.1" data-path="técnicas-de-muestreo.html"><a href="técnicas-de-muestreo.html"><i class="fa fa-check"></i><b>4.1</b> Técnicas de muestreo</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="icph.html"><a href="icph.html"><i class="fa fa-check"></i><b>5</b> Estadística Inferencial</a></li>
-<li class="chapter" data-level="6" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>6</b> Correlación y Regresión</a></li>
-<li class="chapter" data-level="7" data-path="doe.html"><a href="doe.html"><i class="fa fa-check"></i><b>7</b> Diseño de experimentos</a></li>
+<li class="chapter" data-level="5" data-path="icph.html"><a href="icph.html"><i class="fa fa-check"></i><b>5</b> Estadística Inferencial</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="estimación-puntual-y-por-intervalos.html"><a href="estimación-puntual-y-por-intervalos.html"><i class="fa fa-check"></i><b>5.1</b> Estimación puntual y por intervalos</a></li>
+<li class="chapter" data-level="5.2" data-path="intervalos-de-confianza.html"><a href="intervalos-de-confianza.html"><i class="fa fa-check"></i><b>5.2</b> Intervalos de confianza</a></li>
+<li class="chapter" data-level="5.3" data-path="pruebas-de-hipótesis.html"><a href="pruebas-de-hipótesis.html"><i class="fa fa-check"></i><b>5.3</b> Pruebas de hipótesis</a>
+<ul>
+<li class="chapter" data-level="5.3.1" data-path="pruebas-de-hipótesis.html"><a href="pruebas-de-hipótesis.html#para-la-media-prueba-t"><i class="fa fa-check"></i><b>5.3.1</b> Para la media (Prueba <span class="math inline">\(t\)</span>)</a></li>
+<li class="chapter" data-level="5.3.2" data-path="pruebas-de-hipótesis.html"><a href="pruebas-de-hipótesis.html#para-la-proporción"><i class="fa fa-check"></i><b>5.3.2</b> Para la proporción</a></li>
+<li class="chapter" data-level="5.3.3" data-path="pruebas-de-hipótesis.html"><a href="pruebas-de-hipótesis.html#para-la-varianza"><i class="fa fa-check"></i><b>5.3.3</b> Para la varianza</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="pruebas-de-hipótesis-no-paramétricas.html"><a href="pruebas-de-hipótesis-no-paramétricas.html"><i class="fa fa-check"></i><b>5.4</b> Pruebas de hipótesis no paramétricas</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>6</b> Correlación y Regresión</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="gráficos-de-dispersión.html"><a href="gráficos-de-dispersión.html"><i class="fa fa-check"></i><b>6.1</b> Gráficos de dispersión</a></li>
+<li class="chapter" data-level="6.2" data-path="análisis-de-correlación.html"><a href="análisis-de-correlación.html"><i class="fa fa-check"></i><b>6.2</b> Análisis de correlación</a></li>
+<li class="chapter" data-level="6.3" data-path="regresión.html"><a href="regresión.html"><i class="fa fa-check"></i><b>6.3</b> Regresión</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="regresión.html"><a href="regresión.html#regresión-lineal-simple"><i class="fa fa-check"></i><b>6.3.1</b> Regresión lineal simple</a></li>
+<li class="chapter" data-level="6.3.2" data-path="regresión.html"><a href="regresión.html#regresión-lineal-múltiple"><i class="fa fa-check"></i><b>6.3.2</b> Regresión lineal múltiple</a></li>
+<li class="chapter" data-level="6.3.3" data-path="regresión.html"><a href="regresión.html#regresión-logística"><i class="fa fa-check"></i><b>6.3.3</b> Regresión logística</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="doe.html"><a href="doe.html"><i class="fa fa-check"></i><b>7</b> Diseño de experimentos</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="principios-básicos.html"><a href="principios-básicos.html"><i class="fa fa-check"></i><b>7.1</b> Principios básicos</a></li>
+<li class="chapter" data-level="7.2" data-path="prueba-anova.html"><a href="prueba-anova.html"><i class="fa fa-check"></i><b>7.2</b> Prueba ANOVA</a></li>
+<li class="chapter" data-level="7.3" data-path="diseño-completo-al-azar.html"><a href="diseño-completo-al-azar.html"><i class="fa fa-check"></i><b>7.3</b> Diseño completo al azar</a></li>
+<li class="chapter" data-level="7.4" data-path="diseño-de-bloques-completos-al-azar.html"><a href="diseño-de-bloques-completos-al-azar.html"><i class="fa fa-check"></i><b>7.4</b> Diseño de bloques completos al azar</a></li>
+<li class="chapter" data-level="7.5" data-path="diseño-de-cuadro-latino.html"><a href="diseño-de-cuadro-latino.html"><i class="fa fa-check"></i><b>7.5</b> Diseño de cuadro latino</a></li>
+<li class="chapter" data-level="7.6" data-path="pruebas-de-comparaciones-múltiples-paramétricas.html"><a href="pruebas-de-comparaciones-múltiples-paramétricas.html"><i class="fa fa-check"></i><b>7.6</b> Pruebas de comparaciones múltiples paramétricas</a></li>
+<li class="chapter" data-level="7.7" data-path="pruebas-no-paramétricas-equivalentes-al-análisis-de-varianza.html"><a href="pruebas-no-paramétricas-equivalentes-al-análisis-de-varianza.html"><i class="fa fa-check"></i><b>7.7</b> Pruebas no paramétricas equivalentes al análisis de varianza</a></li>
+<li class="chapter" data-level="7.8" data-path="pruebas-de-comparaciones-múltiples-no-paramétricas.html"><a href="pruebas-de-comparaciones-múltiples-no-paramétricas.html"><i class="fa fa-check"></i><b>7.8</b> Pruebas de comparaciones múltiples no paramétricas</a></li>
+<li class="chapter" data-level="7.9" data-path="diseño-factorial.html"><a href="diseño-factorial.html"><i class="fa fa-check"></i><b>7.9</b> Diseño factorial</a></li>
+</ul></li>
 <li class="chapter" data-level="" data-path="bibliografía.html"><a href="bibliografía.html"><i class="fa fa-check"></i>Bibliografía</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -116,16 +148,16 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="intro" class="section level1 hasAnchor" number="2">
-<h1><span class="header-section-number">Capítulo 2</span> Estadística. Conceptos Básicos.<a href="intro.html#intro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="diseño-de-bloques-completos-al-azar" class="section level2 hasAnchor" number="7.4">
+<h2><span class="header-section-number">7.4</span> Diseño de bloques completos al azar<a href="diseño-de-bloques-completos-al-azar.html#diseño-de-bloques-completos-al-azar" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="poniendo-todo-a-punto-para-empezar.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="por-qué-aprender-estadística.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="diseño-completo-al-azar.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="diseño-de-cuadro-latino.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -7,3 +7,15 @@ if(!knitr:::is_html_output())
 
 # Correlación y Regresión {#methods}
 
+## Gráficos de dispersión 
+
+
+## Análisis de correlación
+
+## Regresión
+
+### Regresión lineal simple
+
+### Regresión lineal múltiple
+
+### Regresión logística 

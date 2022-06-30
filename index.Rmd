@@ -38,3 +38,9 @@ library(DescTools)
 
 
 # ¿A quién va dirigido este libro?
+
+
+
+## R y Rstudio
+
+## Poniendo todo a punto para empezar

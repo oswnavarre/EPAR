@@ -7,4 +7,9 @@ if(!knitr:::is_html_output())
 
 # Distribuciones de probabilidad {#distr}
 
+## Definiciones
 
+## Distribución Normal
+
+
+## Distribución $t$ de Student

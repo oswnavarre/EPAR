@@ -7,3 +7,20 @@ if(!knitr:::is_html_output())
 
 # Diseño de experimentos {#doe}
 
+## Principios básicos
+
+## Prueba ANOVA
+
+## Diseño completo al azar
+
+## Diseño de bloques completos al azar
+
+## Diseño de cuadro latino
+
+## Pruebas de comparaciones múltiples paramétricas
+
+## Pruebas no paramétricas equivalentes al análisis de varianza
+
+## Pruebas de comparaciones múltiples no paramétricas
+
+## Diseño factorial
